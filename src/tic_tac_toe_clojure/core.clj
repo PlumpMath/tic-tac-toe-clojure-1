@@ -2,8 +2,8 @@
   (:gen-class))
 
 (def board [[:x :e :o]
-           [:x :e :e]
-           [:x :e :o]])
+            [:x :e :e]
+            [:x :e :o]])
 
 (defn solve [x]
   (let [[[a b c]
